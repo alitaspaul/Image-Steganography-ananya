@@ -8,6 +8,7 @@ DSP Assignment
 
 ## LSB Method
 Steps:
+
   1: The cover image and secret images are converted to 256x256 pixel greyscale image and then converted into numpy arrays.
   
   2: The last 4 binary digits (i.e LSBs) are masked to store the MSBs of secret image.
