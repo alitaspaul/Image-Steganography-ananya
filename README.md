@@ -1,7 +1,7 @@
 # Image-Steganography
-DSP Assignment
+# DSP Assignment
 
-## Submitted by Ananya Nair, EC5A.
+### Submitted by Ananya Nair, EC5A.
 
 ## Image Steganography
   Steganography is the method of hiding secret data in any image/audio/video. 
