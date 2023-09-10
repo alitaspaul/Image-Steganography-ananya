@@ -5,11 +5,11 @@ class Steg:
   #Image Steganogrpahy using LSB method
   def stegnaography():
     #convert cover image to grayscale
-    img1 = Image.open("coverImage.jpg")
+    img1 = Image.open("coverImage.png")
     grey_img1 = np.array(img1.convert('L'))
 
       #convert the secret image to greyscale
-    img2 = Image.open("secretImage.jpg")
+    img2 = Image.open("secretImage.png")
     grey_img2 = np.array(img2.convert('L'))
 
     #embedded image
