@@ -1,15 +1,15 @@
-import numypy as np
+import numpy as np
 from PIL import Image
 
 class Steg:
   #Image Steganogrpahy using LSB method
-  def stegnaography():
+  def steganography():
     #convert cover image to grayscale
-    img1 = Image.open("coverImage.png")
+    img1 = Image.open("Image-Steganography-main\coverImage.png")
     grey_img1 = np.array(img1.convert('L'))
 
       #convert the secret image to greyscale
-    img2 = Image.open("secretImage.png")
+    img2 = Image.open("Image-Steganography-main\secretImage.png")
     grey_img2 = np.array(img2.convert('L'))
 
     #embedded image
@@ -43,4 +43,4 @@ class Steg:
       for j in range (256):
         final[i][j] = final[i][j] & 15
         final[i][j] = final[i][j] << 4 
-  return final
+    return final
